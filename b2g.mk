@@ -33,11 +33,12 @@ BOARD_SEPOLICY_UNION += \
 	b2g.te \
 	bluetoothd.te \
 	fakeappops.te \
+	file.te \
+	file_contexts \
 	gonksched.te \
 	nfcd.te \
 	plugin-container.te \
-	rilproxy.te \
-	file_contexts
+	rilproxy.te
 endif
 
 -include external/svox/pico/lang/all_pico_languages.mk
